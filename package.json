@@ -1,0 +1,24 @@
+{
+  "name": "getsystemjavainfo",
+  "version": "0.9.0",
+  "description": "Get system's default java info",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrieferPig/getsystemjavainfo.git"
+  },
+  "keywords": [
+    "java",
+    "env"
+  ],
+  "author": "GrieferPig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrieferPig/getsystemjavainfo/issues"
+  },
+  "homepage": "https://github.com/GrieferPig/getsystemjavainfo#readme",
+  "files": ["index.js"]
+}
