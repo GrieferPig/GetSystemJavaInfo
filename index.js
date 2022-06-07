@@ -18,7 +18,7 @@ function getJreVerSync() {
     return _return;
 }
 
-function isJrePresent() {
+function isJrePresentSync() {
     try {
         return cp.execSync("java --version", {encoding: "utf8"}).includes("untime");
     } catch (oops) {
@@ -30,8 +30,8 @@ async function getJreVer() {
     return getJreVerSync();
 }
 
-async function isJrePresentSync() {
-    return isJrePresent();
+async function isJrePresent() {
+    return isJrePresentSync();
 }
 
 module.exports = {
